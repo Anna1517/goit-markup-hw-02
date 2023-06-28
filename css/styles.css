@@ -34,6 +34,7 @@ body {
 }
 
 .contact-mail {
+  font-style: normal;
   font-weight: 400;
   letter-spacing: 0.02em;
   color: #434455;
@@ -42,6 +43,13 @@ body {
 .contact-mail:hover,
 .contact-mail:focus {
   color: #404bbf;
+}
+
+.contact-tel {
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 .sections-descriptions {
   font-style: normal;
