@@ -1,59 +1,96 @@
-:root {
-  --main-font-family: 'Roboto', sans-serif;
-  --secondary-font-family-family: 'Raleway', sans-serif;
+/* COMMON STYLES */
+body {
+  font-fameli: Roboto, Raleway;
 }
-
-.list {
+ul {
   list-style: none;
 }
-
-.link {
-  text-decoration: none;
+/* HEDER BLOK */
+.header {
 }
-
-button {
-  font-family: inherit;
-  cursor: pointer;
+.header-nav {
 }
-
-body {
-  font-family: var(--main-font-family);
+.header-logo {
+  color: var(--navyblue, #2e2f42);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.heder-logo-color {
+  color: var(--iris, #4d5ae5);
+}
+.header-item {
+}
+.header-link {
+  color: var(--navyblue, #2e2f42);
   font-size: 16px;
-  line-height: 1.5;
-}
-
-.menu-link {
+  font-style: normal;
   font-weight: 500;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+.header-contact {
+}
+.header-contact-list {
+}
+.header-contact-item > {
+}
+.header-contact-item {
+}
+.header-contact-link {
 }
 
-.menu-link:hover,
-.menu-link:focus {
-  color: #404bbf;
+/* HERO SECTION */
+.hero {
+}
+.hero-title {
+}
+.hero-btn {
 }
 
-.contact-mail {
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-  color: #434455;
+/* ABOUT SECTION */
+.about {
+}
+.about-list {
+}
+.about-item {
+}
+.about-menu {
+}
+.about-descriptions {
 }
 
-.contact-mail:hover,
-.contact-mail:focus {
-  color: #404bbf;
+/* DESCRIPTION SECTION */
+.description {
+}
+.description-menu {
+}
+.description-list {
+}
+.description-item {
+}
+.description-img {
 }
 
-.contact-tel {
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-  color: #434455;
+/* PORTFOLIO SECTION */
+.description {
 }
-.sections-descriptions {
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-  color: #434455;
+.description-menu {
+}
+.description-list {
+}
+.description-item {
+}
+.description-img {
+}
+
+/* FOOTER SEKTION */
+.footer {
+}
+.footer-logo {
+}
+.footer-descriptions {
 }
