@@ -2,7 +2,7 @@
 body {
   font-fameli: Roboto, Raleway;
 }
-ul {
+.list {
   list-style: none;
 }
 /* HEDER BLOK */
@@ -13,7 +13,6 @@ ul {
 .header-logo {
   color: var(--navyblue, #2e2f42);
   font-size: 18px;
-  font-style: normal;
   font-weight: 800;
   line-height: 21px;
   letter-spacing: 0.54px;
@@ -27,7 +26,6 @@ ul {
 .header-link {
   color: var(--navyblue, #2e2f42);
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.32px;
@@ -38,17 +36,31 @@ ul {
 }
 .header-contact-item > {
 }
-.header-contact-item {
-}
 .header-contact-link {
+  color: var(--slate, #434455);
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.32px;
 }
 
 /* HERO SECTION */
 .hero {
 }
 .hero-title {
+  color: var(--white, #fff);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 1.12px;
 }
 .hero-btn {
+  color: var(--white, #fff);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+  background-color: var(--iris, #4d5ae5);
 }
 
 /* ABOUT SECTION */
@@ -59,15 +71,28 @@ ul {
 .about-item {
 }
 .about-menu {
+  color: var(--navyblue, #2e2f42);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
 }
 .about-descriptions {
+  color: var(--slate, #434455);
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.32px;
 }
 
 /* DESCRIPTION SECTION */
 .description {
 }
 .description-menu {
-}
+  color: var(--navyblue, #2e2f42);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
 .description-list {
 }
 .description-item {
@@ -78,7 +103,7 @@ ul {
 /* PORTFOLIO SECTION */
 .description {
 }
-.description-menu {
+.portfolio-title {
 }
 .description-list {
 }
