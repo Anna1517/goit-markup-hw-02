@@ -1,28 +1,33 @@
 /* COMMON STYLES */
 body {
-  font-fameli: Roboto, Raleway;
+  font-family: Roboto, sans-serif;
 }
 .list {
   list-style: none;
 }
-/* HEDER BLOK */
-.header {
+.link {
+  text-decoration: none;
 }
-.header-nav {
-}
-.header-logo {
-  color: var(--navyblue, #2e2f42);
+
+/* LOGO START */
+.logo {
+  color: #4d5ae5;
+  font-family: Raleway;
+  font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
   line-height: 21px;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
-.heder-logo-color {
-  color: var(--iris, #4d5ae5);
+.studio-dark {
+  color: #2E2F42;
 }
-.header-item {
+.studio-light {
+  color: #F4F4FD;
 }
+/* LOGO FINISH */
+/* HEDER BLOK */
 .header-link {
   color: var(--navyblue, #2e2f42);
   font-size: 16px;
@@ -30,22 +35,16 @@ body {
   line-height: 24px;
   letter-spacing: 0.32px;
 }
-.header-contact {
-}
-.header-contact-list {
-}
-.header-contact-item > {
-}
 .header-contact-link {
   color: var(--slate, #434455);
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.32px;
+  font-style: normal;
+  
 }
 
 /* HERO SECTION */
-.hero {
-}
 .hero-title {
   color: var(--white, #fff);
   text-align: center;
@@ -64,12 +63,6 @@ body {
 }
 
 /* ABOUT SECTION */
-.about {
-}
-.about-list {
-}
-.about-item {
-}
 .about-menu {
   color: var(--navyblue, #2e2f42);
   font-size: 20px;
@@ -85,37 +78,40 @@ body {
 }
 
 /* DESCRIPTION SECTION */
-.description {
-}
 .description-menu {
   color: var(--navyblue, #2e2f42);
   font-size: 36px;
   font-weight: 700;
   line-height: 40px;
   letter-spacing: 0.72px;
-.description-list {
-}
-.description-item {
-}
-.description-img {
-}
 
-/* PORTFOLIO SECTION */
-.description {
+/* AVATAR SECTION */
+.avatar-title {
+color: var(--navyblue, #2E2F42);
+font-size: 36px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0.72px;
 }
-.portfolio-title {
+.avatar-avatar {
+color: var(--navyblue, #2E2F42);
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.4px;
 }
-.description-list {
-}
-.description-item {
-}
-.description-img {
+.avatar-description {
+color: var(--slate, #434455);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.32px;
 }
 
 /* FOOTER SEKTION */
-.footer {
-}
-.footer-logo {
-}
 .footer-descriptions {
+color: #F4F4FD;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.32px;
 }
