@@ -34,7 +34,7 @@ h3 {
 p {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.02em;
 }
 .list {
   list-style: none;
@@ -86,15 +86,16 @@ p {
   letter-spacing: 0.02em;
 }
 .header-link:hover,
-.heder-link:focus {
+.header-link:focus {
   color: var(--ocean);
 }
 .header-contact-link {
-  color: var(--navyblue);
+  color: var(--slate);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   font-style: normal;
+  letter-spacing: 0.02em;
 }
 .header-contact-link:hover,
 .header-contact-link:focus {
@@ -128,6 +129,9 @@ p {
 /* AVATAR SECTION */
 .avatar {
   background-color: var(--cloud);
+}
+.avatar-list {
+  background: var(--white);
 }
 .avatar-title {
   color: var(--navyblue);
