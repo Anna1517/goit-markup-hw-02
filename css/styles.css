@@ -128,10 +128,7 @@ p {
 
 /* AVATAR SECTION */
 .avatar {
-  background-color: var(--cloud);
-}
-.avatar-list {
-  background: var(--white);
+  background-color: (--white);
 }
 .avatar-title {
   color: var(--navyblue);
@@ -151,7 +148,23 @@ p {
 
 .portfolio-btn {
   color: var(--iris);
-  background: var(--cloud);
+  background-color: var(--cloud);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: var(--white);
+}
+.servise {
+  color: var(--slate);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* FOOTER SEKTION */
