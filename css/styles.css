@@ -8,25 +8,33 @@
 }
 /* COMMON STYLES */
 body {
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: var(--slate);
+  background-color: var(--white);
+}
+address {
+  font-style: normal;
 }
 h2 {
   color: var(--navyblue);
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 h3 {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   color: var(--navyblue);
+  letter-spacing: 0.02em;
 }
 p {
-  color: var(--slate);
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 .list {
   list-style: none;
@@ -44,6 +52,7 @@ p {
   font-weight: 500;
   line-height: 1.5;
   cursor: pointer;
+  letter-spacing: 0.04em;
 }
 .button:hover,
 .button:focus {
@@ -54,10 +63,11 @@ p {
 /* LOGO START */
 .logo {
   color: var(--iris);
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.2;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .studio-dark {
@@ -73,9 +83,10 @@ p {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .header-link:hover,
-.htder-link:focus {
+.heder-link:focus {
   color: var(--ocean);
 }
 .header-contact-link {
@@ -96,7 +107,8 @@ p {
   text-align: center;
   font-size: 56px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 .hero-btn {
   color: var(--white);
@@ -107,18 +119,23 @@ p {
 }
 /* DESCRIPTION SECTION */
 .description-menu {
-  color: #2e2f42;
+  color: var(--navyblue);
   font-size: 36px;
   font-weight: 700;
   line-height: 1.1;
 }
 
 /* AVATAR SECTION */
+.avatar {
+  background-color: var(--cloud);
+}
 .avatar-title {
   color: var(--navyblue);
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 .avatar-avatar {
   text-align: center;
@@ -137,5 +154,8 @@ p {
 .footer-descriptions {
   font-size: 16px;
   line-height: 1.5;
+  color: var(--cloud);
+}
+.studio-white {
   color: var(--cloud);
 }
