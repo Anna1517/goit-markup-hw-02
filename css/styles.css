@@ -164,14 +164,9 @@ p {
   letter-spacing: 0.02em;
   text-align: left;
 }
-/*.servise {
+.portfolio-services {
   color: var(--slate);
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
-
-
 
 /* FOOTER SEKTION */
 .footer-descriptions {
