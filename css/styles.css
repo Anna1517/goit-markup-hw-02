@@ -118,17 +118,10 @@ p {
 .hero-dtn:hover {
   background: var(--ocean);
 }
-/* DESCRIPTION SECTION */
-.description-menu {
-  color: var(--navyblue);
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.1;
-}
 
 /* AVATAR SECTION */
 .avatar {
-  background-color: (--white);
+  background-color: (--cloud);
 }
 .avatar-title {
   color: var(--navyblue);
@@ -138,6 +131,10 @@ p {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
+.avatar-list {
+  background-color: var(--white);
+}
+
 .avatar-avatar {
   text-align: center;
 }
